@@ -1,26 +1,26 @@
 {
-    "name": "laravel-enso/impersonate",
+    "name": "cgdsoftware/impersonate",
     "description": "User impersonation dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "impersonate",
         "impersonate-users"
     ],
-    "homepage": "https://github.com/laravel-enso/impersonate",
+    "homepage": "https://github.com/cgdsoftware/impersonate",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/migrator": "^2.1",
-        "laravel-enso/dynamic-methods": "^2.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/migrator": "^2.1",
+        "cgdsoftware/dynamic-methods": "^2.0"
     },
     "autoload": {
         "psr-4": {
