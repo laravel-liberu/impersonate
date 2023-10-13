@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Impersonate\DynamicMethods;
+namespace LaravelLiberu\Impersonate\DynamicMethods;
 
 use Closure;
 use Illuminate\Support\Facades\Session;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class IsImpersonationg implements Method
 {

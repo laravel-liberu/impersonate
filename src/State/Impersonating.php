@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Impersonate\State;
+namespace LaravelLiberu\Impersonate\State;
 
 use Illuminate\Support\Facades\Session;
-use LaravelEnso\Core\Contracts\ProvidesState;
+use LaravelLiberu\Core\Contracts\ProvidesState;
 
 class Impersonating implements ProvidesState
 {

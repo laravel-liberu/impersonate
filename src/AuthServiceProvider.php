@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Impersonate;
+namespace LaravelLiberu\Impersonate;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class AuthServiceProvider extends ServiceProvider
 {

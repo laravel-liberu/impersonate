@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Impersonate\Http\Middleware;
+namespace LaravelLiberu\Impersonate\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

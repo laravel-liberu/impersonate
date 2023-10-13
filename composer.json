@@ -24,14 +24,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Impersonate\\": "src/"
+            "LaravelLiberu\\Impersonate\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Impersonate\\AppServiceProvider",
-                "LaravelEnso\\Impersonate\\AuthServiceProvider"
+                "LaravelLiberu\\Impersonate\\AppServiceProvider",
+                "LaravelLiberu\\Impersonate\\AuthServiceProvider"
             ],
             "aliases": {}
         }

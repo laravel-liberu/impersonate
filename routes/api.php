@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Impersonate\Http\Controllers\Start;
-use LaravelEnso\Impersonate\Http\Controllers\Stop;
+use LaravelLiberu\Impersonate\Http\Controllers\Start;
+use LaravelLiberu\Impersonate\Http\Controllers\Stop;
 
 Route::middleware(['web', 'auth:web', 'core'])
     ->prefix('api/core/impersonate')->as('core.impersonate.')

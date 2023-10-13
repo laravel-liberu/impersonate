@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Impersonate\Http\Controllers;
+namespace LaravelLiberu\Impersonate\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Session;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class Start extends Controller
 {
